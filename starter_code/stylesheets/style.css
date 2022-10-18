@@ -8,3 +8,702 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body{
+    font-family:"Noto Sans";
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+#logo-slack{
+    width: 120px;
+    height: 30px;
+}
+.navegacao,.search{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    
+   
+    
+}
+
+header, nav, .fundo-roxo{
+    background-color:#540B51 ;
+}
+
+#menu-icon{
+    display:none;
+}
+
+.fundo-roxo{
+    border: 0;
+}
+#lista-1{
+    display: flex;
+    justify-content:space-between;
+}
+#lista-1>li{
+    list-style: none;
+    padding: 20px;
+}
+#lista-1>li>a{
+    text-decoration:none;
+    color:white;
+}
+#lista-2{
+    display: flex;
+    justify-content:space-between;
+}
+#lista-2>li{
+    list-style: none;
+    padding: 20px;
+}
+#lista-2>li>a{
+    text-decoration:none;
+}
+#sign{
+    color:white;
+   
+}
+#try{
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 2px;
+    padding-inline: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#great{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+h2{
+    color:white;
+    margin-bottom: 15%;
+    padding-right: 30%;
+    font-size: 70px;
+
+}
+#product{
+    width: 80%;
+    
+}
+#google-logo{
+    width:12%;
+    background-color: white;
+    padding: 2%;
+    margin: 2% 10% 2% 2%;
+}
+#buttom-google{
+    display: flex;
+    align-items: center;
+    background-color: #4285F4;
+    margin-left: 2%;
+    width: 50%;
+    border-radius: 7px;
+}
+#span-1{
+    color:#ECB12F ;
+}
+#span-2{
+    color:white ;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bold;
+}
+#bottons{
+    display: flex;
+    justify-content: center;
+    width:80%;
+}
+#buttom-sign{
+    width:50%;
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 7px;
+}
+#span-3{
+    color:white
+}
+#great>p{
+    padding-right: 55%;
+    margin-bottom: 3%;
+
+}
+#conf-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3EAE2;
+}
+
+#conf-sec>p{
+    margin:2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#confiaveis>#airbnb{
+    padding: 1%;
+    width: 12%;
+    margin-bottom: 10%;
+    
+}
+#confiaveis>#nasa{
+    padding: 1%;
+    width: 10%;
+    margin-bottom: 10%;
+    
+}
+#confiaveis>#uber{
+    padding: 1%;
+    width: 10%;
+    margin-bottom: 10%;
+    
+}
+#confiaveis>#target{
+    padding: 1%;
+    width: 8%;
+    margin-bottom: 10%;
+    
+}
+#confiaveis>#nyt{
+    padding: 1%;
+    width: 22%;
+    margin-bottom: 10%;
+    
+}
+#confiaveis>#spotfy{
+    padding: 2%;
+    width: 16%;
+    margin-bottom: 10%;
+    
+}
+
+#confiaveis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 20%;
+}
+.mobile{
+    width: 100%;
+}
+
+#sec-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3EAE2;
+
+}
+#bring{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:20%;
+    
+    
+}
+
+#bring-h{
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    
+}
+#bring-p{
+    padding-right: 10%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+#bring>a{
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+#sec-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3EAE2;
+
+}
+#choose{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 10%;
+    
+
+}
+
+#choose>h3{
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    
+}
+#choose>p{
+    padding-right: 10%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+#choose>a{
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+#sec-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3EAE2;
+    padding-bottom: 10%;
+
+}
+#move{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+}
+
+#move>h3{
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    
+    
+}
+#move>p{
+    padding-right: 10%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+#move>a{
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+#sec-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#sec-6>h3{
+    color:#540B51;
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#sec-6>p{
+   
+    font-weight: bold;
+    margin-bottom: 1%;
+    
+}
+
+#sec-6>div{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-bottom: 4%;
+}
+
+#sec-6 #meet{
+   background-color:#540B51;
+   color:white;
+   padding: 3%;
+   margin-right: 2%;
+   text-transform: uppercase;
+   border-radius: 6px;
+   width: 60%;
+   font-weight: bold;
+    
+}
+#sec-6 #talk{
+    background-color:white;
+    border-color: #540B51;
+    color:#540B51;
+    padding: 2%;
+    margin-right: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 35%;
+     
+ }
+
+#sec-6>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec-6>ul>li{
+    width: 50%;
+    text-align: center;
+
+}
+
+#sec-6>ul span{
+    font-size: 400%;
+    font-weight: bolder;
+    color:#540B51;
+    
+}
+
+.para-2{
+    font-weight: bold;
+    padding-left: 34%;
+    text-align: left; 
+    
+}
+
+#sec-7{
+    background-color: #540B51;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    border-radius: 2000px 2000px  / 0px 0px 300px 300px;
+    
+}
+
+#sec-7>h3{
+    font-size: 300%;
+    margin-bottom: 4%;
+}
+
+#sec-7>#try-1{
+    font-size: 100%;
+    color: #540B51;
+    font-weight: bolder;
+    padding: 2% 5%;
+    text-transform: uppercase;
+    margin-right: 1%;
+}
+
+#sec-7>#talk-1{
+    font-size: 100%;
+    color: white;
+    border:2px solid white;
+    background-color: #540B51;
+    font-weight: bolder;
+    padding: 2% 5%;
+    text-transform: uppercase;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin:6%
+}
+footer>img{
+    width:5%;
+    margin-bottom: 3%;
+}
+
+#div1-footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+}
+
+#div1-footer>ul>li{
+    margin-bottom: 20%;
+}
+
+#status{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+#span-4{
+    color: #4285F4;
+
+}
+#sociais{
+    display: flex;
+    margin-bottom: 3%;
+}
+#sociais>li{
+    padding-right: 6%;
+}
+
+
+
+
+
+
+@media (max-width:1440px){
+    #bottons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:80%;
+    }
+    #buttom-google{
+        margin-left: 0;
+        margin-top: 2%;
+        width:60%;
+
+    }    
+   
+    
+    #buttom-sign{
+        width:60%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+  
+    
+}
+
+@media (max-width:1024px){
+
+    #lista-1{
+        display: none;
+    }
+    #lista-2{
+        display:none
+    }
+    #menu-icon{
+        display:inline;
+        margin-left: 40%;
+    }
+    nav{
+        padding-top: 3%;
+        padding-right:3%;
+    }
+    
+    
+    #great>p{
+        padding-right: 10%;
+    }
+    #great>h2{
+        padding-right: 10%;
+    }   
+    #buttom-google{
+        margin-left: 0;
+        margin-top: 2%;
+        width:80%;
+
+    }
+    #buttom-sign{
+        width:80%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    #sec-3{
+        flex-direction: column;
+        padding-bottom: 4%;
+    } 
+    .mobile{
+        width: 80%;
+    } 
+    #sec-4{
+        flex-direction: column-reverse;
+        padding-bottom: 4%;
+    } 
+    #sec-5{
+        flex-direction: column;
+    }  
+    #left-align{
+        text-align: right;
+    } 
+    #sec-6>h3{     
+        color:black;
+        font-size: 200%;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+
+    #sec-6>div{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin-bottom: 4%;
+    }
+    #sec-7{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    #sec-7>h3{
+        font-size: 200%;
+
+    }
+    
+    #sec-7>#try-1{
+        font-size: 100%;
+        color: #540B51;
+        font-weight: bolder;
+        padding: 2% 5%;
+        text-transform: uppercase;
+        margin-bottom: 2%;
+        margin-right: 0;
+    
+    }
+    
+    #sec-7>#talk-1{
+        font-size: 100%;
+        color: white;
+        border:2px solid white;
+        background-color: #540B51;
+        font-weight: bolder;
+        padding: 2% 5%;
+        text-transform: uppercase;
+    }
+    #status>li{
+        font-size: 80%;
+    }
+    
+
+}
+@media (max-width:768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #great{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    
+    }
+    #buttom-google{
+        width: 95%;
+        font-size: 150%;
+
+    }
+    #buttom-sign{
+        width: 95%;
+        font-size: 140%;
+    }
+    #confiaveis{
+        margin: 5%;
+        display:inline-block;
+        
+    }    
+    #confiaveis>#airbnb{
+        padding: 1%;
+        margin-right: 3%;
+        width: 25%;
+        margin-bottom: 10%;
+        
+    }
+    #confiaveis>#nasa{
+        padding: 1%;
+        margin-right: 3%;
+        width: 17%;
+        margin-bottom: 10%;
+        
+    }
+    #confiaveis>#uber{
+        padding: 1%;
+        margin-right: 3%;
+        width: 20%;
+        margin-bottom: 10%;
+        
+    }
+    #confiaveis>#target{
+        padding: 1%;
+        margin-right: 3%;
+        width: 14%;
+        margin-bottom: 10%;
+        
+    }
+    #confiaveis>#nyt{
+        padding: 1%;
+        margin-right: 3%;
+        width: 42%;
+        margin-bottom: 10%;
+        
+    }
+    #confiaveis>#spotfy{
+        padding: 2%;
+        margin-right: 3%;
+        width: 36%;
+        margin-bottom: 10%;
+        
+    }
+    #sec-6>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35%;
+        margin-bottom: 4%;
+    }
+    #sec-6 #meet{
+        
+        width: 100%;
+        margin-bottom: 2%;
+         
+    }
+    #sec-6 #talk{
+         
+         width: 100%;
+          
+    }
+    #sec-6>ul{
+        flex-direction: column;
+    }
+    .para-2{
+        font-weight: bold;
+        padding-left: 0;
+        text-align: center;   
+    }
+    #sec-7>h3{
+        padding-inline: 20%;
+    }
+    #status{
+        flex-direction: column;
+    }
+    #status>li{
+        margin-bottom: 5%;
+    }
+    #sociais{
+        justify-content: space-between;
+    }
+}
